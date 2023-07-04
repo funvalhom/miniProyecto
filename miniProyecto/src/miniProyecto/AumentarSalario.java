@@ -1,23 +1,36 @@
 package miniProyecto;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AumentarSalario {
-	double salario =0;
-	double aumento = salario * 1.25;
-	Scanner dato = new Scanner(System.in);
+	
+	private ArrayList<Empleado> empleados;
+
+    public AumentarSalario(ArrayList<Empleado> empleados) {
+        this.empleados = empleados;
+    }
+
+    public void aumentarSalario() {
+    
+            
+        
+    }
+}
 
 	
 	
-	public void salario() {
+    
+
+	
+	
+	
+
+	
+	
+	
 		
 	
-	
-	System.out.print("Hola");
-	
-	}
-		
-	}
 
 
 	
